@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B241F0AC1F016BF800E58361 /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241F0AB1F016BF800E58361 /* SushiPiece.swift */; };
+		B241F0AE1F01719500E58361 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241F0AD1F01719500E58361 /* Character.swift */; };
+		B247F40B1F0164A500884723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B247F40A1F0164A500884723 /* AppDelegate.swift */; };
+		B247F40D1F0164A500884723 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B247F40C1F0164A500884723 /* GameScene.sks */; };
+		B247F40F1F0164A500884723 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B247F40E1F0164A500884723 /* Actions.sks */; };
+		B247F4111F0164A500884723 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B247F4101F0164A500884723 /* GameScene.swift */; };
+		B247F4131F0164A500884723 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B247F4121F0164A500884723 /* GameViewController.swift */; };
+		B247F4161F0164A500884723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B247F4141F0164A500884723 /* Main.storyboard */; };
+		B247F4181F0164A500884723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B247F4171F0164A500884723 /* Assets.xcassets */; };
+		B247F41B1F0164A500884723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B247F4191F0164A500884723 /* LaunchScreen.storyboard */; };
+		B247F4261F0164A500884723 /* SushiNekoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B247F4251F0164A500884723 /* SushiNekoTests.swift */; };
+		B247F4311F0164A500884723 /* SushiNekoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B247F4301F0164A500884723 /* SushiNekoUITests.swift */; };
+		B247F43F1F01653C00884723 /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B247F43E1F01653C00884723 /* assets.atlas */; };
+		B247F4411F0165A900884723 /* sfx_swipe.caf in Resources */ = {isa = PBXBuildFile; fileRef = B247F4401F0165A900884723 /* sfx_swipe.caf */; };
+		B2BC19511F01668500EA0287 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC19501F01668500EA0287 /* MSButtonNode.swift */; };
+		B2C29A631F017FAC00EB90F5 /* AnimationActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B2C29A621F017FAC00EB90F5 /* AnimationActions.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B247F4221F0164A500884723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B247F3FF1F0164A500884723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B247F4061F0164A500884723;
+			remoteInfo = SushiNeko;
+		};
+		B247F42D1F0164A500884723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B247F3FF1F0164A500884723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B247F4061F0164A500884723;
+			remoteInfo = SushiNeko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B241F0AB1F016BF800E58361 /* SushiPiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
+		B241F0AD1F01719500E58361 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		B247F4071F0164A500884723 /* SushiNeko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiNeko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B247F40A1F0164A500884723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B247F40C1F0164A500884723 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B247F40E1F0164A500884723 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B247F4101F0164A500884723 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B247F4121F0164A500884723 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B247F4151F0164A500884723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B247F4171F0164A500884723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B247F41A1F0164A500884723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B247F41C1F0164A500884723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B247F4211F0164A500884723 /* SushiNekoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiNekoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B247F4251F0164A500884723 /* SushiNekoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiNekoTests.swift; sourceTree = "<group>"; };
+		B247F4271F0164A500884723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B247F42C1F0164A500884723 /* SushiNekoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiNekoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B247F4301F0164A500884723 /* SushiNekoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiNekoUITests.swift; sourceTree = "<group>"; };
+		B247F4321F0164A500884723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B247F43E1F01653C00884723 /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
+		B247F4401F0165A900884723 /* sfx_swipe.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_swipe.caf; sourceTree = "<group>"; };
+		B2BC19501F01668500EA0287 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		B2C29A621F017FAC00EB90F5 /* AnimationActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AnimationActions.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B247F4041F0164A500884723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B247F41E1F0164A500884723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B247F4291F0164A500884723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B247F3FE1F0164A500884723 = {
+			isa = PBXGroup;
+			children = (
+				B2C29A621F017FAC00EB90F5 /* AnimationActions.sks */,
+				B247F4091F0164A500884723 /* SushiNeko */,
+				B247F4241F0164A500884723 /* SushiNekoTests */,
+				B247F42F1F0164A500884723 /* SushiNekoUITests */,
+				B247F4081F0164A500884723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B247F4081F0164A500884723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B247F4071F0164A500884723 /* SushiNeko.app */,
+				B247F4211F0164A500884723 /* SushiNekoTests.xctest */,
+				B247F42C1F0164A500884723 /* SushiNekoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B247F4091F0164A500884723 /* SushiNeko */ = {
+			isa = PBXGroup;
+			children = (
+				B247F40A1F0164A500884723 /* AppDelegate.swift */,
+				B247F40C1F0164A500884723 /* GameScene.sks */,
+				B241F0AD1F01719500E58361 /* Character.swift */,
+				B247F40E1F0164A500884723 /* Actions.sks */,
+				B241F0AB1F016BF800E58361 /* SushiPiece.swift */,
+				B247F4101F0164A500884723 /* GameScene.swift */,
+				B247F4121F0164A500884723 /* GameViewController.swift */,
+				B247F4141F0164A500884723 /* Main.storyboard */,
+				B247F4401F0165A900884723 /* sfx_swipe.caf */,
+				B2BC19501F01668500EA0287 /* MSButtonNode.swift */,
+				B247F43E1F01653C00884723 /* assets.atlas */,
+				B247F4171F0164A500884723 /* Assets.xcassets */,
+				B247F4191F0164A500884723 /* LaunchScreen.storyboard */,
+				B247F41C1F0164A500884723 /* Info.plist */,
+			);
+			path = SushiNeko;
+			sourceTree = "<group>";
+		};
+		B247F4241F0164A500884723 /* SushiNekoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B247F4251F0164A500884723 /* SushiNekoTests.swift */,
+				B247F4271F0164A500884723 /* Info.plist */,
+			);
+			path = SushiNekoTests;
+			sourceTree = "<group>";
+		};
+		B247F42F1F0164A500884723 /* SushiNekoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B247F4301F0164A500884723 /* SushiNekoUITests.swift */,
+				B247F4321F0164A500884723 /* Info.plist */,
+			);
+			path = SushiNekoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B247F4061F0164A500884723 /* SushiNeko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B247F4351F0164A500884723 /* Build configuration list for PBXNativeTarget "SushiNeko" */;
+			buildPhases = (
+				B247F4031F0164A500884723 /* Sources */,
+				B247F4041F0164A500884723 /* Frameworks */,
+				B247F4051F0164A500884723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SushiNeko;
+			productName = SushiNeko;
+			productReference = B247F4071F0164A500884723 /* SushiNeko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B247F4201F0164A500884723 /* SushiNekoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B247F4381F0164A500884723 /* Build configuration list for PBXNativeTarget "SushiNekoTests" */;
+			buildPhases = (
+				B247F41D1F0164A500884723 /* Sources */,
+				B247F41E1F0164A500884723 /* Frameworks */,
+				B247F41F1F0164A500884723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B247F4231F0164A500884723 /* PBXTargetDependency */,
+			);
+			name = SushiNekoTests;
+			productName = SushiNekoTests;
+			productReference = B247F4211F0164A500884723 /* SushiNekoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B247F42B1F0164A500884723 /* SushiNekoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B247F43B1F0164A500884723 /* Build configuration list for PBXNativeTarget "SushiNekoUITests" */;
+			buildPhases = (
+				B247F4281F0164A500884723 /* Sources */,
+				B247F4291F0164A500884723 /* Frameworks */,
+				B247F42A1F0164A500884723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B247F42E1F0164A500884723 /* PBXTargetDependency */,
+			);
+			name = SushiNekoUITests;
+			productName = SushiNekoUITests;
+			productReference = B247F42C1F0164A500884723 /* SushiNekoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B247F3FF1F0164A500884723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Aniruddha Madhusudan";
+				TargetAttributes = {
+					B247F4061F0164A500884723 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					B247F4201F0164A500884723 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B247F4061F0164A500884723;
+					};
+					B247F42B1F0164A500884723 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B247F4061F0164A500884723;
+					};
+				};
+			};
+			buildConfigurationList = B247F4021F0164A500884723 /* Build configuration list for PBXProject "SushiNeko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B247F3FE1F0164A500884723;
+			productRefGroup = B247F4081F0164A500884723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B247F4061F0164A500884723 /* SushiNeko */,
+				B247F4201F0164A500884723 /* SushiNekoTests */,
+				B247F42B1F0164A500884723 /* SushiNekoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B247F4051F0164A500884723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B247F4161F0164A500884723 /* Main.storyboard in Resources */,
+				B247F40D1F0164A500884723 /* GameScene.sks in Resources */,
+				B247F43F1F01653C00884723 /* assets.atlas in Resources */,
+				B247F4181F0164A500884723 /* Assets.xcassets in Resources */,
+				B2C29A631F017FAC00EB90F5 /* AnimationActions.sks in Resources */,
+				B247F41B1F0164A500884723 /* LaunchScreen.storyboard in Resources */,
+				B247F4411F0165A900884723 /* sfx_swipe.caf in Resources */,
+				B247F40F1F0164A500884723 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B247F41F1F0164A500884723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B247F42A1F0164A500884723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B247F4031F0164A500884723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B247F4111F0164A500884723 /* GameScene.swift in Sources */,
+				B247F4131F0164A500884723 /* GameViewController.swift in Sources */,
+				B247F40B1F0164A500884723 /* AppDelegate.swift in Sources */,
+				B241F0AE1F01719500E58361 /* Character.swift in Sources */,
+				B241F0AC1F016BF800E58361 /* SushiPiece.swift in Sources */,
+				B2BC19511F01668500EA0287 /* MSButtonNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B247F41D1F0164A500884723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B247F4261F0164A500884723 /* SushiNekoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B247F4281F0164A500884723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B247F4311F0164A500884723 /* SushiNekoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B247F4231F0164A500884723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B247F4061F0164A500884723 /* SushiNeko */;
+			targetProxy = B247F4221F0164A500884723 /* PBXContainerItemProxy */;
+		};
+		B247F42E1F0164A500884723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B247F4061F0164A500884723 /* SushiNeko */;
+			targetProxy = B247F42D1F0164A500884723 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B247F4141F0164A500884723 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B247F4151F0164A500884723 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B247F4191F0164A500884723 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B247F41A1F0164A500884723 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B247F4331F0164A500884723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B247F4341F0164A500884723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B247F4361F0164A500884723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SushiNeko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKT.SushiNeko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B247F4371F0164A500884723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SushiNeko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKT.SushiNeko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B247F4391F0164A500884723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SushiNekoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKT.SushiNekoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiNeko.app/SushiNeko";
+			};
+			name = Debug;
+		};
+		B247F43A1F0164A500884723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SushiNekoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKT.SushiNekoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiNeko.app/SushiNeko";
+			};
+			name = Release;
+		};
+		B247F43C1F0164A500884723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SushiNekoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKT.SushiNekoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SushiNeko;
+			};
+			name = Debug;
+		};
+		B247F43D1F0164A500884723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SushiNekoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKT.SushiNekoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SushiNeko;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B247F4021F0164A500884723 /* Build configuration list for PBXProject "SushiNeko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B247F4331F0164A500884723 /* Debug */,
+				B247F4341F0164A500884723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B247F4351F0164A500884723 /* Build configuration list for PBXNativeTarget "SushiNeko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B247F4361F0164A500884723 /* Debug */,
+				B247F4371F0164A500884723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B247F4381F0164A500884723 /* Build configuration list for PBXNativeTarget "SushiNekoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B247F4391F0164A500884723 /* Debug */,
+				B247F43A1F0164A500884723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B247F43B1F0164A500884723 /* Build configuration list for PBXNativeTarget "SushiNekoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B247F43C1F0164A500884723 /* Debug */,
+				B247F43D1F0164A500884723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B247F3FF1F0164A500884723 /* Project object */;
+}
