@@ -101,7 +101,9 @@ class GameScene: SKScene {
             
             /* Add a new sushi piece to the top of the tower */
             addRandomPieces(total: 1)
-            
+            for piece in sushiTower {
+                piece.zPosition -= 1
+            }
             /* Check character side against sushi piece side (this is our death collision check)*/
         }
         /* Increment health and score */
@@ -143,7 +145,7 @@ class GameScene: SKScene {
             return
         }
         /* Decrease Health */
-        health -= 0.02
+        health -= 0.015
         /* No health? */
         if health < 0 {
             gameOver()
@@ -210,12 +212,20 @@ class GameScene: SKScene {
     }
     
     func moveTowerDown() {
+        
         var n: CGFloat = 0
         for piece in sushiTower {
             let y = (n * 55) + 215
             piece.position.y -= (piece.position.y - y) * 0.5
             n += 1
         }
+ 
+        /*
+        for piece in sushiTower {
+            piece.run(SKAction.move(by: CGVector(dx: 0, dy: -55), duration: 0.10))
+        }
+        */
+ 
     }
 }
 

@@ -19,8 +19,10 @@ class SushiPiece: SKSpriteNode {
             case .left:
                 /* Show left chopstick */
                 leftChopstick.isHidden = false
+                rightChopstrick.isHidden = true
             case .right:
                 /* Show right chopstick */
+                leftChopstick.isHidden = true
                 rightChopstrick.isHidden = false
             case .none:
                 /* Hide all chopsticks */
